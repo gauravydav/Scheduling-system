@@ -32,45 +32,67 @@ This project is a Scheduling System that allows an admin to manage employee sche
 
 # Frontend Installation
 
-# 1. Clone the repository
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/gauravydav/Scheduling-system
 cd frontend
+```
 
-# 2. Install dependencies
-# Install the necessary dependencies using npm or yarn
+### 2. Install dependencies
+#### Install the necessary dependencies using npm
+
+```bash
 npm install
+```
 
-# 3. Run the project locally
-# Once the dependencies are installed, you can start the development server
+### 3. Run the project locally
+#### Once the dependencies are installed, you can start the development server
+
+```bash
 npm start
+```
 
-# This will start the React application on http://localhost:3000
+### This will start the React application on http://localhost:3000
 
-# 4. Open the app
-# Open your browser and navigate to http://localhost:3000 to see the app running locally
+### 4. Open the app
+##### Open your browser and navigate to http://localhost:3000 to see the app running locally
 
 # Backend Installation and Setup
 
-# 1. Clone the repository
-git clone <repository-url>
-cd <project-directory>
+### 1. Clone the repository
 
-# 2. Set up environment variables
-# Create a .env file in the root directory and add the following content:
+```bash
+git clone https://github.com/gauravydav/Scheduling-system
+cd backend
+```
+
+
+### 2. Set up environment variables
+##### Create a .env file in the root directory and add the following content:
+
+```bash
 MONGO_URI=mongodb+srv://<your-username>:<your-password>@cluster0.7u6tu.mongodb.net/
 JWT_SECRET=your_jwt_secret
 EMAIL_USER=your-email@example.com
 EMAIL_PASS=your-email-password
+```
 
-# Make sure to replace the placeholders with actual values.
+### Make sure to replace the placeholders with actual values.
 
-# 3. Install dependencies
+### 3. Install dependencies
+
+```bash
 npm install
+```
 
-# 4. Run the backend server
+### 4. Run the backend server
+
+```bash
 npm run dev
+```
 
-# This will run the backend server locally. Check logs for details on the server startup.
+###### This will run the backend server locally. Check logs for details on the server startup.
 
 
 
