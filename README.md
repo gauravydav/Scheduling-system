@@ -12,7 +12,7 @@ This project is a Scheduling System that allows an admin to manage employee sche
    - Role-based access (Admin only).
 
 2. **Scheduling**
-   - Admin can create, update, and delete schedules for employees.
+   - Admin can create schedules for employees.
    - Schedules include a date, time, and a 200-character comment.
    - Notifications are sent to employees and the admin.
 
